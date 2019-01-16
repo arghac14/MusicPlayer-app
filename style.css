@@ -1,0 +1,133 @@
+#mainpage{
+	background: url("images/4.jpg");
+	background-size: cover;
+}
+#carImage{
+	padding-left: 100px;
+  
+	height: 500px;
+	width: 1240px;
+	opacity: 0.8;
+}
+h2{ 
+	
+	background-color: rgba(36, 37, 42, 0.5);
+	size: 30px;
+}
+#menu{
+	background: rgba(0,0,0,0.2);
+  filter: blur(0.4px);
+}
+button {
+  width: 330px;
+  height: 60px;
+  background: rgb(203,96,179); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(173,18,131,1) 50%, rgba(222,71,172,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 50%,rgba(222,71,172,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 50%,rgba(222,71,172,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); 
+  border: none;
+  position: relative;
+  border-bottom: 4px solid #2b8bc6;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button:active {
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+  top: 1px;
+}
+
+
+#b1{
+	position: relative;
+	top:30px;
+	left: -390px;
+	border-radius:  200px 0px 0px 200px;
+  text-align: right;
+}
+#b1:hover{
+     background: linear-gradient(to bottom, #4eb5e5 50%,#389ed5 100%);
+}
+#b2{
+	position: relative;
+	top:-50px;
+	left: 370px;
+	border-radius: 0px 200px 200px 0px;
+}
+#b2:hover{
+     background: linear-gradient(to bottom, #4eb5e5 50%,#389ed5 100%);
+}
+#box{
+  height: 230px;
+  width: 400px;
+  background-color: rgba(0,0,0,0.2);
+  
+}
+h1{
+   color:rgba(241, 169, 160, 1);
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 40px;
+  
+}
+p{
+   color:rgba(241, 169, 160, 1);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 22px;
+  text-align: middle;
+  text-indent: 5px;
+}
+input[type=text] {
+
+  background-color: transparent;
+  color: white;
+  border-color: black;
+   padding-left: 10px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+#sub{
+  width: 120px;
+  height: 40px;
+  background: rgb(203,96,179); 
+background: -moz-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(173,18,131,1) 50%, rgba(222,71,172,1) 100%); background: -webkit-linear-gradient(top, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 50%,rgba(222,71,172,1) 100%);  Chrome10-25,Safari5.1-6 
+background: linear-gradient(to bottom, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 50%,rgba(222,71,172,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); 
+  border: none;
+  position: relative;
+  border-bottom: 4px solid #2b8bc6;
+  color: #fbfbfb;
+  border-radius: 200px 200px 200px 200px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+#sub:hover{
+     background: linear-gradient(to bottom, #4eb5e5 50%,#389ed5 100%);
+}

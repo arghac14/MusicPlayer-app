@@ -1,0 +1,53 @@
+.prof-box{
+    width: 400px;
+    height: 400 px;
+    background:rgba(0,0,0,0.4);
+    padding:40px;
+    color: white;
+    margin: 0 auto;
+    margin-top:50px;
+    text-align: center;
+
+}
+html{
+    background: url(we.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.profpic{
+    height: 200px;
+    width:200px;
+    border-radius: 50%
+}
+.name{
+    font-weight:100;
+    font-stretch:expanded;
+    font-family: 'Times New Roman', Times, serif;
+}
+.colg{
+    font-weight:100;
+    font-stretch:expanded;
+    font-family: 'Verdana', Tahoma, sans-serif;
+}
+.course{
+    font-weight:100;
+    font-stretch:expanded;
+    font-family: 'Verdana', Tahoma, sans-serif;
+}
+.quote{
+    font-weight:100;
+    font-stretch:expanded;
+    font-family: 'Verdana', Tahoma, sans-serif;
+}
+.icons{
+    height: 50px;
+    width:50px;  
+    color: white;
+}
+.foot{
+    color:white;
+    font-stretch: expanded;
+    font-family: 'Verdana', Tahoma, sans-serif;
+}
